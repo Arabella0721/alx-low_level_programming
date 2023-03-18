@@ -10,13 +10,15 @@ int main(void)
 {
 	int lowerCase = 'a';
 	int upperCase = 'A';
+	int lowerCase = 'z';
+	int upperCase = 'Z';
 
-	while (lowerCase <= 'z')
+	while (lowerCase 'a'; 'z';)
 	{
 		putchar(lowerCase);
 		lowerCase += 1;
 	}
-	while (upperCase <= 'z')
+	while (upperCase = 'A'; 'Z';)
 	{
 	putchar(upperCase);
 	upperCase += 1;
