@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Return: 0 (sucess)
+ * Return: 0 (success)
  */
 
 int main(void)
@@ -18,13 +18,16 @@ int main(void)
 		{
 			for (k = 2 ; k < 10 ; k++)
 			{
-				putchar(i + '0');
-				putchar(j + '0');
-				putchar(k + '0');
 				if (i != j && j != k && k != i)
 				{
-					putchar(',');
-					putchar(' ');
+					putchar(i + '0');
+					putchar(j + '0');
+					putchar(k + '0');
+					if (i + j + k != 24)
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
 			}
 		}
