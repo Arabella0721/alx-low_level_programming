@@ -11,9 +11,9 @@ int main(void)
 	int i;
 	int j;
 
-	for (i = 0 ; i < 100 ; i++)
+	for (i = 00 ; i < 100 ; i++)
 	{
-		for (j = i ; j < 100 ; j++)
+		for (j = 01 ; j < 100 ; j++)
 		{
 			if (i != j)
 			{
