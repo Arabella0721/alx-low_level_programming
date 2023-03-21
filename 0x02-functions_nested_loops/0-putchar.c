@@ -1,18 +1,21 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * main - Entry point
+ * main - write a script that prints _putchar
  *
  * Result: 0 (Success)
  */
 
 int main()
 {
-	int i;
-
-	fwrite (i = 0 ; i < 10 ; i++)
-	putchar(i + '0');
-	putchar("\n");
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
