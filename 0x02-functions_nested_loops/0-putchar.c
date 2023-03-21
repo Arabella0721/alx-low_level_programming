@@ -1,17 +1,15 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - Entry point
  *
- * Return: 0 (success)
+ * Result: 0 (Success)
  */
-void main()
-{
-	int i;
 
-	while (i = 0 ; i < 10 ; i++)
-	{
-	_putchar("\n");
+int main() {
 
+	int result = add(1, 2);
+	_putchar("result is : %\n", result);
 	return (0);
 }
