@@ -11,11 +11,8 @@ int main()
 {
 	int i;
 
-	write (i = 0 : i < 10 ; i++)
-	{
+	fwrite (i = 0 ; i < 10 ; i++)
 	putchar(i + '0');
-	}
-
 	putchar("\n");
 	return (0);
 }
