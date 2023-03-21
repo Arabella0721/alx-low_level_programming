@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * main - write a script that prints _putchar
- *
- * Result: 0 (Success)
+ * main - Entry point
+ * _putchar: print the word putchar
+ * Return: Always  0 (Success)
  */
 
-int main()
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
