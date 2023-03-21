@@ -7,9 +7,15 @@
  * Result: 0 (Success)
  */
 
-int main() {
+int main()
+{
+	int i;
 
-	int result = add(1, 2);
-	_putchar("result is : %\n", result);
+	write (i = 0 : i < 10 ; i++)
+	{
+	putchar(i + '0');
+	}
+
+	putchar("\n");
 	return (0);
 }
