@@ -2,15 +2,16 @@
 
 /**
  * main - entry point
- * print_alphabet:
+ * print_alphabet: write a program that prints alphabet in lowercase
  * Return: void
  */
 
-void print_alphabet(void);
+void print_alphabet(void)
 {
-	char ch;
-	for (ch = 'a'; ch <= 'z'; ch++)
-		_putchar(i);
-	_putchar("\n");
-	return (0);
+	char c;
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		_putchar(c);
+	}
+	_putchar('\n');
 }
