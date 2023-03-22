@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * 24_hours - Print every minutes of the day of Jack Bauer
+ * 24_hours - Print every minutes of the day of jack bauer
  *
  * Return: void
  */
@@ -17,7 +17,7 @@ void jack_bauer(void)
 		{
 			if ((a <= 1 && b <= 9) || (a <= 2 && b <= 3))
 			{
-				for (c = 0 ; c = 5 ; c++)
+				for (c = 0 ; c <= 5 ; c++)
 				{
 					for (d = 0 ; d <= 9 ; d++)
 					{
