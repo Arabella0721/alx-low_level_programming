@@ -21,6 +21,7 @@ int main(void)
 		fib_1 = fib_2;
 		fib_2 = sum;
 	}
+
 	fib_1_half1 = fib_1 / 10000000000;
 	fib_2_half1 = fib_2 / 10000000000;
 	fib_1_half2 = fib_1 % 10000000000;
